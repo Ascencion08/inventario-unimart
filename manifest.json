@@ -1,7 +1,7 @@
 {
   "name": "Inventario Unimart",
   "short_name": "Stock",
-  "description": "Control de inventario de suministros",
+  "description": "Control de inventario de suministros operativos",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",
