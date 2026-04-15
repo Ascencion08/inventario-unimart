@@ -1,14 +1,13 @@
 /**
  * config.js
  * Constantes globales de la aplicación.
- * Reemplazá SUPABASE_URL y SUPABASE_KEY con tus credenciales del proyecto.
  */
 
-export const SUPABASE_URL = 'PEGA_TU_URL_AQUI';
-export const SUPABASE_KEY = 'PEGA_TU_ANON_KEY_AQUI';
+export const SUPABASE_URL = 'https://lkzhrezgaudxsarxrcsn.supabase.co';
+export const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxremhyZXpnYXVkeHNhcnhyY3NuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYxMjc4OTIsImV4cCI6MjA5MTcwMzg5Mn0.PmuG-ybZCiP24sUqZ9oRwhwvqPCgqv4PMzff7Up7GBM';
 
-/** PIN numérico de 4 dígitos para acceso de supervisor */
+/** PIN numérico de 4 dígitos para acceso de admin */
 export const ADMIN_PIN = '1234';
 
 /** Nombre del usuario supervisor (se muestra en el badge y en el historial) */
-export const ADMIN_NAME = 'Supervisor';
+export const ADMIN_NAME = 'Admin';
